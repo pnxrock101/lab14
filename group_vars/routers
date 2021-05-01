@@ -1,0 +1,6 @@
+---
+ansibile_user: sdnstudent
+ansibile_ssh_pass: Python123
+ansibile_connection: network_cli
+ansibile_network_os: ios
+ansibile_become: no
