@@ -1,2 +1,2 @@
 ---
-ansibile_host: 192.168.108.130
+ansible_host: 192.168.108.130
