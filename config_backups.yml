@@ -12,7 +12,7 @@
 
     - name: save output to /home/sdnstudent/sdn-module7/backups
     copy:
-    content: "{{ config.stdout[0] }}"
-    dest: "/home/sdnstudent/sdn-module7/backups/show_run_{{ inventory_hostname  }}.txt"
+    content: "{{config.stdout[0]}}"
+    dest: "/home/sdnstudent/sdn-module7/backups/show_run_{{inventory_hostname}}.txt"
 
 ...
