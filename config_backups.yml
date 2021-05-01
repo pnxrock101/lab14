@@ -8,7 +8,7 @@
       ios_command:
       commands:
         - show run
-        register: config
+          register: config
 
         - name: save output to /home/sdnstudent/sdn-module7/backups
         copy:
